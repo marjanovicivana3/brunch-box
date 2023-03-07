@@ -1,0 +1,167 @@
+body {
+  background: rgb(181, 207, 208);
+  background: linear-gradient(
+    193deg,
+    rgba(181, 207, 208, 1) 0%,
+    rgba(253, 174, 255, 1) 35%,
+    rgba(222, 222, 222, 1) 67%,
+    rgba(185, 181, 181, 1) 82%
+  );
+}
+
+/* menü leiste */
+.leiste {
+  background-color: black;
+  border: 10px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.no-underline {
+  text-decoration: none;
+}
+
+/* nav-text-farbe */
+nav ul li a {
+  color: rgb(231, 234, 236);
+}
+/* überschrift  */
+.überschrift {
+  border: 10px solid;
+  border-style: none;
+  font-family: "Dancing Script", cursive;
+  margin: 50px 50px;
+  padding: 10%;
+  display: block;
+  text-align: center;
+  text-shadow: 10px 8px 6px rgb(99, 98, 98);
+}
+
+img.schatten {
+  box-shadow: 10px 20px 15px rgb(99, 98, 98);
+  border-radius: 50%;
+}
+
+/* erste reihe brunchbox*/
+.small,
+.medium,
+.large {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.brunchbox {
+  border: 10px solid;
+  border-style: none;
+  display: flex;
+}
+
+.small {
+  border-radius: 10%;
+}
+
+.small img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+.medium {
+  border-radius: 10%;
+}
+
+.medium img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+.large {
+  border-radius: 10%;
+}
+
+.large img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+/* zweite reihe geschenkbox */
+.geschenkbox {
+  border: 10px solid;
+  border-style: none;
+  display: flex;
+}
+.xmas,
+.bday,
+.party {
+  font-family: "Julius Sans One", sans-serif;
+}
+.xmas {
+  border-radius: 10%;
+}
+.xmas img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+.bday {
+  border-radius: 10%;
+}
+.bday img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+.party {
+  border-radius: 10%;
+}
+.party img {
+  display: block;
+  border-radius: inherit;
+  box-shadow: 10px 15px 15px rgb(140, 144, 148);
+}
+
+.hintergrund-bild {
+  background-image: url(./Images/pexels-girl-of-waves-13187382.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.letzter-text {
+  font-family: "Dancing Script", cursive;
+  border: 10px solid;
+  border-style: none;
+  margin: 30px 30px;
+  padding: 5%;
+  display: block;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgb(199, 203, 206);
+}
+
+iframe {
+  border: 20px solid rgb(199, 203, 206);
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+footer {
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
